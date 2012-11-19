@@ -2,6 +2,7 @@ api = 2
 core = 7.x
 
 includes[] = drupal-org-core.make
+includes[] = ding2tal-override.make
 
 ;contrib
 
@@ -29,34 +30,16 @@ projects[webform][version] = "3.18"
 projects[panels_style_collapsible][subdir] = "contrib"
 projects[panels_style_collapsible][version] = "1.0"
 
-;Ding2tal
+; theme
 projects[latto_odense][type] = "theme"
 projects[latto_odense][download][type] = "git"
 projects[latto_odense][download][url] = "git@github.com:odensecentralbibliotek/latto_odense.git"
-
-projects[ddbasic][type] = "theme"
-projects[ddbasic][download][type] = "git"
-projects[ddbasic][download][url] = "git@github.com:ding2tal/ddbasic.git"
-
-projects[latto][type] = "theme"
-projects[latto][download][type] = "git"
-projects[latto][download][url] = "git@github.com:ding2tal/latto.git"
-
-projects[ding2][type] = "profile"
-projects[ding2][download][type] = "git"
-projects[ding2][download][url] = "git@github.com:ding2tal/ding2.git"
-projects[ding2][patch][] = "https://raw.github.com/odensecentralbibliotek/makefiles/update/ding2.patch"
 
 ; Custom modules
 projects[sms_service][type] = "module"
 projects[sms_service][subdir] = "custom"
 projects[sms_service][download][type] = "git"
 projects[sms_service][download][url] = "git@github.com:odensecentralbibliotek/sms_service.git"
-
-projects[ting_recommendation_panes][type] = "module"
-projects[ting_recommendation_panes][subdir] = "custom"
-projects[ting_recommendation_panes][download][type] = "git"
-projects[ting_recommendation_panes][download][url] = "git@github.com:odensecentralbibliotek/ting_recommendation_panes.git"
 
 ;Features
 projects[ding_oc_latto_frontend][type] = "module"
