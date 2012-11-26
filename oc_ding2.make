@@ -19,6 +19,7 @@ projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc2"
 
 ;Just grab the newest release of these, their functionality isn't critical or even visible to the ordinary user
+projects[redirect][subdir] = "contrib"
 projects[diff][subdir] = "contrib"
 projects[admin_menu][subdir] = "contrib"
 projects[module_filter][subdir] = "contrib"
@@ -53,3 +54,13 @@ projects[ding_oc_latto_frontend][type] = "module"
 projects[ding_oc_latto_frontend][subdir] = "features"
 projects[ding_oc_latto_frontend][download][type] = "git"
 projects[ding_oc_latto_frontend][download][url] = "https://github.com/odensecentralbibliotek/ding_oc_latto_frontend.git"
+
+projects[oc_maps][type] = "module"
+projects[oc_maps][subdir] = "features"
+projects[oc_maps][download][type] = "git"
+projects[oc_maps][download][url] = "https://github.com/odensecentralbibliotek/oc_maps.git"
+
+projects[taxonomy_terms][type] = "module"
+projects[taxonomy_terms][subdir] = "features"
+projects[taxonomy_terms][download][type] = "git"
+projects[taxonomy_terms][download][url] = "https://github.com/odensecentralbibliotek/taxonomy_terms.git"
