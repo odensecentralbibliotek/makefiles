@@ -20,6 +20,7 @@ projects[menu_attributes][version] = "1.0-rc2"
 
 ;Just grab the newest release of these, their functionality isn't critical or even visible to the ordinary user
 projects[diff][subdir] = "contrib"
+projects[admin_menu][subdir] = "contrib"
 projects[module_filter][subdir] = "contrib"
 projects[advanced_help][subdir] = "contrib"
 projects[git_deploy][subdir] = "contrib"
@@ -40,6 +41,12 @@ projects[sms_service][type] = "module"
 projects[sms_service][subdir] = "custom"
 projects[sms_service][download][type] = "git"
 projects[sms_service][download][url] = "git@github.com:odensecentralbibliotek/sms_service.git"
+
+projects[finurlig_widget][type] = "module"
+projects[finurlig_widget][subdir] = "custom"
+projects[finurlig_widget][download][type] = "git"
+projects[finurlig_widget][download][url] = "git@github.com:aakb/finurlig_widget.git"
+projects[finurlig_widget][download][tag] = "7.x-1.3"
 
 ;Features
 projects[ding_oc_latto_frontend][type] = "module"
