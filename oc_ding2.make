@@ -2,7 +2,6 @@ api = 2
 core = 7.x
 
 includes[] = drupal-org-core.make
-includes[] = ding2tal-override.make
 
 ;contrib
 
@@ -64,3 +63,9 @@ projects[taxonomy_terms][type] = "module"
 projects[taxonomy_terms][subdir] = "features"
 projects[taxonomy_terms][download][type] = "git"
 projects[taxonomy_terms][download][url] = "https://github.com/odensecentralbibliotek/taxonomy_terms.git"
+
+;Ding2tal
+projects[ding2][type] = "profile"
+projects[ding2][download][type] = "git"
+projects[ding2][download][url] = "git@github.com:odensecentralbibliotek/ding2.git"
+projects[ding2][patch][] = "https://raw.github.com/odensecentralbibliotek/makefiles/master/ding2.patch"
