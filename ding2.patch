@@ -110,10 +110,10 @@ index 826e096..f51cf93 100644
 +includes[] = ding2tal-override.make
 diff --git a/ding2tal-override.make b/ding2tal-override.make
 new file mode 100644
-index 0000000..75f867e
+index 0000000..4962145
 --- /dev/null
 +++ b/ding2tal-override.make
-@@ -0,0 +1,196 @@
+@@ -0,0 +1,192 @@
 +projects[alma][type] = module
 +projects[alma][download][type] = "git"
 +projects[alma][download][url] = "https://github.com/odensecentralbibliotek/alma.git"
@@ -125,6 +125,10 @@ index 0000000..75f867e
 +projects[latto][type] = "theme"
 +projects[latto][download][type] = "git"
 +projects[latto][download][url] = "git@github.com:odensecentralbibliotek/latto.git"
++
++projects[ding_footer][type] = module
++projects[ding_footer][download][type] = "git"
++projects[ding_footer][download][url] = "https://github.com/odensecentralbibliotek/ding_footer.git"
 +
 +projects[ding_dibs][type] = module
 +projects[ding_dibs][download][type] = "git"
@@ -297,14 +301,6 @@ index 0000000..75f867e
 +projects[ting_infomedia][type] = module
 +projects[ting_infomedia][download][type] = "git"
 +projects[ting_infomedia][download][url] = "https://github.com/odensecentralbibliotek/ting_infomedia.git"
-+
-+projects[ddbasic][type] = module
-+projects[ddbasic][download][type] = "git"
-+projects[ddbasic][download][url] = "https://github.com/odensecentralbibliotek/ddbasic.git"
-+
-+projects[latto][type] = module
-+projects[latto][download][type] = "git"
-+projects[latto][download][url] = "https://github.com/odensecentralbibliotek/latto.git"
 +
 +projects[ding2][type] = "profile"
 +projects[ding2][download][type] = "git"
