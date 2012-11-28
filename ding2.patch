@@ -41,10 +41,9 @@ index 0000000..1d187ec
 --- /dev/null
 +++ b/ding2tal-override.make
 @@ -0,0 +1,196 @@
-+projects[ding2][type] = "profile"
-+projects[ding2][download][type] = "git"
-+projects[ding2][download][url] = "git@github.com:odensecentralbibliotek/ding2.git"
-+projects[ding2][patch][] = "https://raw.github.com/odensecentralbibliotek/makefiles/update/ding2.patch"
++projects[alma][type] = module
++projects[alma][download][type] = "git"
++projects[alma][download][url] = "https://github.com/odensecentralbibliotek/alma.git"
 +
 +projects[ddbasic][type] = "theme"
 +projects[ddbasic][download][type] = "git"
@@ -234,6 +233,7 @@ index 0000000..1d187ec
 +projects[latto][download][type] = "git"
 +projects[latto][download][url] = "https://github.com/odensecentralbibliotek/latto.git"
 +
-+projects[alma][type] = module
-+projects[alma][download][type] = "git"
-+projects[alma][download][url] = "https://github.com/odensecentralbibliotek/alma.git"
++projects[ding2][type] = "profile"
++projects[ding2][download][type] = "git"
++projects[ding2][download][url] = "git@github.com:odensecentralbibliotek/ding2.git"
++projects[ding2][patch][] = "https://raw.github.com/odensecentralbibliotek/makefiles/update/ding2.patch"
