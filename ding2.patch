@@ -23,21 +23,18 @@ index ee6ba92..1f46afa 100644
 +
  files[] = ding2.profile
 diff --git a/ding2.make b/ding2.make
-index 826e096..43f1af9 100644
+index 826e096..0c9be86 100644
 --- a/ding2.make
 +++ b/ding2.make
-@@ -1,6 +1,8 @@
- api = 2
- core = 7.x
- 
-+includes[] = ding2tal-override.make
+@@ -86,3 +86,5 @@ projects[ddbasic][type] = theme
+ projects[ddbasic][download][type] = git
+ projects[ddbasic][download][url] = git@github.com:ding2tal/ddbasic.git
+ projects[ddbasic][download][branch] = "development"
 +
- ; Profiler lib for profile
- libraries[profiler][download][type] = "git"
- libraries[profiler][download][url] = "http://git.drupal.org/project/profiler.git"
++includes[] = ding2tal-override.make
 diff --git a/ding2tal-override.make b/ding2tal-override.make
 new file mode 100644
-index 0000000..1d187ec
+index 0000000..75f867e
 --- /dev/null
 +++ b/ding2tal-override.make
 @@ -0,0 +1,196 @@
