@@ -64,6 +64,11 @@ projects[taxonomy_terms][subdir] = "features"
 projects[taxonomy_terms][download][type] = "git"
 projects[taxonomy_terms][download][url] = "https://github.com/odensecentralbibliotek/taxonomy_terms.git"
 
+projects[oc_cookie][type] = "module"
+projects[oc_cookie][subdir] = "features"
+projects[oc_cookie][download][type] = "git"
+projects[oc_cookie][download][url] = "https://github.com/odensecentralbibliotek/oc_cookie.git"
+
 ;Ding2tal
 projects[ding2][type] = "profile"
 projects[ding2][download][type] = "git"
