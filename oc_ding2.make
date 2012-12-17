@@ -7,7 +7,6 @@ includes[] = drupal-org-core.make
 
 projects[opening_hours][subdir] = "contrib"
 projects[opening_hours][version] = "1.2"
-projects[opening_hours][patch][] = "http://drupal.org/files/opening_hours-fixed_panels-1819672-1.patch"
 
 ;Required by opening_hours
 projects[tipsy][subdir] = "contrib"
