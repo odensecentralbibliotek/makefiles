@@ -42,6 +42,11 @@ projects[sms_service][subdir] = "custom"
 projects[sms_service][download][type] = "git"
 projects[sms_service][download][url] = "git@github.com:odensecentralbibliotek/sms_service.git"
 
+projects[ding_tabroll][type] = "module"
+projects[ding_tabroll][subdir] = "custom"
+projects[ding_tabroll][download][type] = "git"
+projects[ding_tabroll][download][url] = "git@github.com:odensecentralbibliotek/ding_tabroll.git"
+
 projects[finurlig_widget][type] = "module"
 projects[finurlig_widget][subdir] = "custom"
 projects[finurlig_widget][download][type] = "git"
