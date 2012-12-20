@@ -8,6 +8,9 @@ includes[] = drupal-org-core.make
 projects[opening_hours][subdir] = "contrib"
 projects[opening_hours][version] = "1.2"
 
+projects[taxonomy_menu][subdir] = "contrib"
+projects[taxonomy_menu][version] = "1.4"
+
 ;Required by opening_hours
 projects[tipsy][subdir] = "contrib"
 projects[tipsy][version] = "1.0-rc1"
