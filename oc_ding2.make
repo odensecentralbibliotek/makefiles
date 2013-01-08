@@ -11,6 +11,12 @@ projects[opening_hours][version] = "1.2"
 projects[taxonomy_menu][subdir] = "contrib"
 projects[taxonomy_menu][version] = "1.4"
 
+;Inspiration page, the menu on news category needs this.
+projects[taxonomy_edge][subdir] = "contrib"
+projects[taxonomy_edge][version] = "1.7"
+projects[taxonomy_menu_trails][subdir] = "contrib"
+projects[taxonomy_menu_trails][version] = "2.5"
+
 ;Required by opening_hours
 projects[tipsy][subdir] = "contrib"
 projects[tipsy][version] = "1.0-rc1"
