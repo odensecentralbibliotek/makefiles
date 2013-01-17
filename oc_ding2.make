@@ -11,6 +11,10 @@ projects[opening_hours][version] = "1.2"
 projects[taxonomy_menu][subdir] = "contrib"
 projects[taxonomy_menu][version] = "1.4"
 
+;Panels Hash Cache, caching Search Ting Panel
+projects[panels_hash_cache][subdir] = "contrib"
+projects[panels_hash_cache][version] = "1.0-alpha1"
+
 ;Inspiration page, the menu on news category needs this.
 projects[taxonomy_edge][subdir] = "contrib"
 projects[taxonomy_edge][version] = "1.7"
