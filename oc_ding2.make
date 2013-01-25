@@ -5,6 +5,15 @@ includes[] = drupal-org-core.make
 
 ;contrib
 
+projects[taxonomy_menu][subdir] = "contrib"
+projects[taxonomy_menu][version] = "1.4"
+
+projects[taxonomy_menu_trails][subdir] = "contrib"
+projects[taxonomy_menu_trails][version] = "2.5"
+
+projects[menu_rules][subdir] = "contrib"
+projects[menu_rules][version] = "1.3"
+
 projects[opening_hours][subdir] = "contrib"
 projects[opening_hours][version] = "1.2"
 
@@ -39,9 +48,6 @@ projects[git_deploy][subdir] = "contrib"
 
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.18"
-
-projects[panels_style_collapsible][subdir] = "contrib"
-projects[panels_style_collapsible][version] = "1.0"
 
 ; theme
 projects[latto_odense][type] = "theme"
