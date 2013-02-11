@@ -15,7 +15,7 @@ projects[menu_rules][subdir] = "contrib"
 projects[menu_rules][version] = "1.3"
 
 projects[opening_hours][subdir] = "contrib"
-projects[opening_hours][version] = "1.2"
+projects[opening_hours][version] = "1.3"
 
 projects[taxonomy_menu][subdir] = "contrib"
 projects[taxonomy_menu][version] = "1.4"
