@@ -4,6 +4,8 @@ core = 7.x
 includes[] = drupal-org-core.make
 
 ;contrib
+projects[search_config][subdir] = "search_config"
+projects[search_config][version] = "1.0"
 
 projects[taxonomy_menu][subdir] = "contrib"
 projects[taxonomy_menu][version] = "1.4"
