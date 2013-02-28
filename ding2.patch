@@ -1,12 +1,26 @@
 diff --git a/ding2.info b/ding2.info
-index ee6ba92..36f7866 100644
+index ee6ba92..ad4ca83 100644
 --- a/ding2.info
 +++ b/ding2.info
-@@ -23,4 +23,18 @@ dependencies[] = ding_frontpage
+@@ -23,4 +23,32 @@ dependencies[] = ding_frontpage
  dependencies[] = ding_library_menu
  dependencies[] = ding_news
  
 +; oc features
++dependencies[] = print
++dependencies[] = search_config
++dependencies[] = admin_menu
++dependencies[] = oc_cookie
++dependencies[] = oc_maps
++dependencies[] = taxonomy_terms
++dependencies[] = ding_tabroll
++dependencies[] = redirect
++dependencies[] = finurlig_widget
++dependencies[] = menu_rules
++dependencies[] = taxonomy_menu
++dependencies[] = taxonomy_menu_trails
++dependencies[] = taxonomy_edge
++dependencies[] = panels_hash_cache
 +dependencies[] = views_ui
 +dependencies[] = ding_oc_latto_frontend
 +dependencies[] = opening_hours
