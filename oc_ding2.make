@@ -4,10 +4,10 @@ core = 7.x
 includes[] = drupal-org-core.make
 
 ;contrib
-projects[print][subdir] = "print"
+projects[print][subdir] = "contrib"
 projects[print][version] = "1.2"
 
-projects[search_config][subdir] = "search_config"
+projects[search_config][subdir] = "contrib"
 projects[search_config][version] = "1.0"
 
 projects[taxonomy_menu][subdir] = "contrib"
@@ -21,9 +21,6 @@ projects[menu_rules][version] = "1.3"
 
 projects[opening_hours][subdir] = "contrib"
 projects[opening_hours][version] = "1.3"
-
-projects[taxonomy_menu][subdir] = "contrib"
-projects[taxonomy_menu][version] = "1.4"
 
 ;Panels Hash Cache, caching Search Ting Panel
 projects[panels_hash_cache][subdir] = "contrib"
