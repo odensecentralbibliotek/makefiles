@@ -1,8 +1,8 @@
 diff --git a/ding2.info b/ding2.info
-index ee6ba92..ad4ca83 100644
+index ee6ba92..e6d5ecf 100644
 --- a/ding2.info
 +++ b/ding2.info
-@@ -23,4 +23,32 @@ dependencies[] = ding_frontpage
+@@ -23,4 +23,33 @@ dependencies[] = ding_frontpage
  dependencies[] = ding_library_menu
  dependencies[] = ding_news
  
@@ -33,6 +33,7 @@ index ee6ba92..ad4ca83 100644
 +dependencies[] = alma
 +dependencies[] = git_deploy
 +dependencies[] = webform
++dependencies[] = easysite_import
 +
  files[] = ding2.profile
 diff --git a/ding2.make b/ding2.make

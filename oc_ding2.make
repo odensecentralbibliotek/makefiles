@@ -57,6 +57,11 @@ projects[latto_odense][download][type] = "git"
 projects[latto_odense][download][url] = "git@github.com:odensecentralbibliotek/latto_odense.git"
 
 ; Custom modules
+projects[easysite_import][type] = "module"
+projects[easysite_import][subdir] = "custom"
+projects[easysite_import][download][type] = "git"
+projects[easysite_import][download][url] = "git@github.com:odensecentralbibliotek/easysite_import.git"
+
 projects[sms_service][type] = "module"
 projects[sms_service][subdir] = "custom"
 projects[sms_service][download][type] = "git"
