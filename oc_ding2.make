@@ -7,6 +7,9 @@ includes[] = drupal-org-core.make
 projects[print][subdir] = "contrib"
 projects[print][version] = "1.2"
 
+projects[addthis][subdir] = "contrib"
+projects[addthis][version] = "2.1-beta1"
+
 projects[search_config][subdir] = "contrib"
 projects[search_config][version] = "1.0"
 
