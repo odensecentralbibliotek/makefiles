@@ -4,6 +4,9 @@ core = 7.x
 includes[] = drupal-org-core.make
 
 ;contrib
+projects[scheduler][subdir] = "contrib"
+projects[scheduler][version] = "1.0"
+
 projects[print][subdir] = "contrib"
 projects[print][version] = "1.2"
 
