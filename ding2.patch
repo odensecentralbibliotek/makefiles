@@ -124,10 +124,14 @@ index 826e096..f51cf93 100644
 +includes[] = ding2tal-override.make
 diff --git a/ding2tal-override.make b/ding2tal-override.make
 new file mode 100644
-index 0000000..4962145
+index 0000000..370db4b
 --- /dev/null
 +++ b/ding2tal-override.make
-@@ -0,0 +1,192 @@
+@@ -0,0 +1,196 @@
++libraries[ting-client][download][type] = "git"
++libraries[ting-client][download][url] = "https://github.com/odensecentralbibliotek/ting-client.git"
++libraries[ting-client][destination] = "modules/ting/lib"
++
 +projects[alma][type] = module
 +projects[alma][download][type] = "git"
 +projects[alma][download][url] = "https://github.com/odensecentralbibliotek/alma.git"
