@@ -4,6 +4,12 @@ core = 7.x
 includes[] = drupal-org-core.make
 
 ;contrib
+projects[sweaver][subdir] = "contrib"
+projects[sweaver][version] = "1.3"
+
+projects[webform_mass_email][subdir] = "contrib"
+projects[webform_mass_email][version] = "1.0"
+
 projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.0"
 
