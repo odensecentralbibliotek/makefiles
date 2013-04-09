@@ -3,7 +3,15 @@ core = 7.x
 
 includes[] = drupal-org-core.make
 
+;libraries
+libraries[tablesorter][download][type] = get
+libraries[tablesorter][download][url] = http://tablesorter.com/__jquery.tablesorter.zip
+libraries[tablesorter][destination] = libraries
+
 ;contrib
+projects[tablesorter][subdir] = "contrib"
+projects[tablesorter][version] = "1.1"
+
 projects[sweaver][subdir] = "contrib"
 projects[sweaver][version] = "1.3"
 
