@@ -4,6 +4,10 @@ core = 7.x
 includes[] = drupal-org-core.make
 
 ;contrib
+projects[nodequeue][subdir] = "contrib"
+projects[nodequeue][version] = 2.0-beta1
+projects[nodequeue][patch][] = http://drupal.org/files/nodequeue-rules_integration-1125922-31.patch
+
 projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.0"
 
