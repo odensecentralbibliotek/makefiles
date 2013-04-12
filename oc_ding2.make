@@ -3,10 +3,24 @@ core = 7.x
 
 includes[] = drupal-org-core.make
 
+;libraries
+libraries[tablesorter][download][type] = get
+libraries[tablesorter][download][url] = http://tablesorter.com/__jquery.tablesorter.zip
+libraries[tablesorter][destination] = libraries
+
 ;contrib
 projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = 2.0-beta1
 projects[nodequeue][patch][] = http://drupal.org/files/nodequeue-rules_integration-1125922-31.patch
+
+projects[tablesorter][subdir] = "contrib"
+projects[tablesorter][version] = "1.1"
+
+projects[sweaver][subdir] = "contrib"
+projects[sweaver][version] = "1.3"
+
+projects[webform_mass_email][subdir] = "contrib"
+projects[webform_mass_email][version] = "1.0"
 
 projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.0"
