@@ -32,7 +32,10 @@ projects[print][subdir] = "contrib"
 projects[print][version] = "1.2"
 
 projects[addthis][subdir] = "contrib"
-projects[addthis][version] = "2.1-beta1"
+projects[addthis][version] = "4.0-alpha2"
+
+projects[fontyourface][subdir] = "contrib"
+projects[fontyourface][version] = "2.7"
 
 projects[search_config][subdir] = "contrib"
 projects[search_config][version] = "1.0"
