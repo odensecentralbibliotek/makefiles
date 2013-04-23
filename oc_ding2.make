@@ -37,9 +37,6 @@ projects[search_config][version] = "1.0"
 projects[taxonomy_menu][subdir] = "contrib"
 projects[taxonomy_menu][version] = "1.4"
 
-projects[taxonomy_menu_trails][subdir] = "contrib"
-projects[taxonomy_menu_trails][version] = "2.5"
-
 projects[menu_rules][subdir] = "contrib"
 projects[menu_rules][version] = "1.3"
 
