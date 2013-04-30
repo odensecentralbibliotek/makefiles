@@ -21,6 +21,7 @@ projects[tablesorter][version] = "1.1"
 
 projects[sweaver][subdir] = "contrib"
 projects[sweaver][version] = "1.3"
+projects[sweaver][patch][] = http://drupal.org/files/panels-everywhere.patch
 
 projects[webform_mass_email][subdir] = "contrib"
 projects[webform_mass_email][version] = "1.0"
