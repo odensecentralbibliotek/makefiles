@@ -124,12 +124,15 @@ index 826e096..f51cf93 100644
 +includes[] = ding2tal-override.make
 diff --git a/ding2tal-override.make b/ding2tal-override.make
 new file mode 100644
-index 0000000..c685428
+index 0000000..a60baf9
 --- /dev/null
 +++ b/ding2tal-override.make
-@@ -0,0 +1,218 @@
+@@ -0,0 +1,221 @@
 +projects[variable][subdir] = "contrib"
 +projects[variable][version] = "2.2"
++
++projects[wysiwyg][subdir] = "contrib"
++projects[wysiwyg][version] = "2.2"
 +
 +projects[token][subdir] = "contrib"
 +projects[token][version] = "1.5"
