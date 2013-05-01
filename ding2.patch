@@ -124,17 +124,12 @@ index 826e096..f51cf93 100644
 +includes[] = ding2tal-override.make
 diff --git a/ding2tal-override.make b/ding2tal-override.make
 new file mode 100644
-index 0000000..f4b47c6
+index 0000000..a60baf9
 --- /dev/null
 +++ b/ding2tal-override.make
-@@ -0,0 +1,226 @@
+@@ -0,0 +1,221 @@
 +projects[variable][subdir] = "contrib"
 +projects[variable][version] = "2.2"
-+
-+libraries[ckeditor][download][type] = get
-+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip
-+libraries[ckeditor][directory_name] = ckeditor
-+libraries[ckeditor][destination] = libraries
 +
 +projects[wysiwyg][subdir] = "contrib"
 +projects[wysiwyg][version] = "2.2"
