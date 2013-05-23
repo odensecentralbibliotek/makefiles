@@ -11,6 +11,7 @@ libraries[tablesorter][destination] = libraries
 ;contrib
 projects[features_override][subdir] = "contrib"
 projects[features_override][version] = 2.0-beta2
+projects[features_override][patch][] = http://drupal.org/files/1955638-var-export-1.patch
 
 projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = 2.0-beta1
