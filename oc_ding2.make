@@ -108,6 +108,11 @@ projects[finurlig_widget][download][type] = "git"
 projects[finurlig_widget][download][url] = "git@github.com:aakb/finurlig_widget.git"
 projects[finurlig_widget][download][tag] = "7.x-1.3"
 
+projects[ding_place2book][type] = "module"
+projects[ding_place2book][download][type] = "git"
+projects[ding_place2book][download][url] = "git@github.com:vejlebib/ding_place2book.git"
+projects[ding_place2book][download][tag] = "v2.1.5"
+
 ;Features
 projects[ding_oc_latto_frontend][type] = "module"
 projects[ding_oc_latto_frontend][subdir] = "features"
@@ -134,3 +139,4 @@ projects[ding2][type] = "profile"
 projects[ding2][download][type] = "git"
 projects[ding2][download][url] = "git@github.com:odensecentralbibliotek/ding2.git"
 projects[ding2][patch][] = "https://raw.github.com/odensecentralbibliotek/makefiles/master/ding2.patch"
+
