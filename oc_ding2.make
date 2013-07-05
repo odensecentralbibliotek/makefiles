@@ -9,6 +9,9 @@ libraries[tablesorter][download][url] = http://tablesorter.com/__jquery.tablesor
 libraries[tablesorter][destination] = libraries
 
 ;contrib
+projects[account_profile][subdir] = "contrib"
+projects[account_profile][version] = 2.0-beta1
+
 projects[features_override][subdir] = "contrib"
 projects[features_override][version] = 2.0-beta2
 projects[features_override][patch][] = http://drupal.org/files/1955638-var-export-1.patch
