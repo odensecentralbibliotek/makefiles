@@ -9,6 +9,9 @@ libraries[tablesorter][download][url] = http://tablesorter.com/__jquery.tablesor
 libraries[tablesorter][destination] = libraries
 
 ;contrib
+projects[account_profile][subdir] = "contrib"
+projects[account_profile][version] = 2.0-beta1
+
 projects[features_override][subdir] = "contrib"
 projects[features_override][version] = 2.0-beta2
 projects[features_override][patch][] = http://drupal.org/files/1955638-var-export-1.patch
@@ -24,11 +27,8 @@ projects[sweaver][subdir] = "contrib"
 projects[sweaver][version] = "1.3"
 projects[sweaver][patch][] = http://drupal.org/files/panels-everywhere.patch
 
-projects[webform_mass_email][subdir] = "contrib"
-projects[webform_mass_email][version] = "1.0"
-
 projects[scheduler][subdir] = "contrib"
-projects[scheduler][version] = "1.0"
+projects[scheduler][version] = "1.1"
 
 projects[print][subdir] = "contrib"
 projects[print][version] = "1.2"
@@ -87,6 +87,11 @@ projects[latto_odense][download][type] = "git"
 projects[latto_odense][download][url] = "git@github.com:odensecentralbibliotek/latto_odense.git"
 
 ; Custom modules
+projects[mobile_detect][type] = "module"
+projects[mobile_detect][subdir] = "custom"
+projects[mobile_detect][download][type] = "git"
+projects[mobile_detect][download][url] = "git@github.com:odensecentralbibliotek/mobile_detect.git"
+
 projects[easysite_import][type] = "module"
 projects[easysite_import][subdir] = "custom"
 projects[easysite_import][download][type] = "git"
@@ -111,7 +116,7 @@ projects[finurlig_widget][download][tag] = "7.x-1.3"
 projects[ding_place2book][type] = "module"
 projects[ding_place2book][download][type] = "git"
 projects[ding_place2book][download][url] = "git@github.com:vejlebib/ding_place2book.git"
-projects[ding_place2book][download][tag] = "v2.1.5"
+projects[ding_place2book][download][branch] = "ding2tal_compatibility"
 
 ;Features
 projects[ding_oc_latto_frontend][type] = "module"
