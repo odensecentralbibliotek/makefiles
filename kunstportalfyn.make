@@ -6,6 +6,30 @@ includes[] = drupal-org-core.make
 ;libraries
 
 ;contrib
+projects[menu_block][subdir] = "contrib"
+projects[menu_block][version] = 2.3
+
+projects[views_tree][subdir] = "contrib"
+projects[views_tree][version] = 2.0
+
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = 3.1
+
+projects[entity][subdir] = "contrib"
+projects[entity][version] = 1.2
+
+projects[multiform][subdir] = "contrib"
+projects[multiform][version] = 1.0
+
+projects[simplenews][subdir] = "contrib"
+projects[simplenews][version] = 1.0
+
+projects[mailsystem][subdir] = "contrib"
+projects[mailsystem][version] = 2.34 
+
+projects[htmlmail][subdir] = "contrib"
+projects[htmlmail][version] = 2.65
+
 projects[media_browser_plus][subdir] = "contrib"
 projects[media_browser_plus][version] = 3.0-beta1
 
@@ -76,7 +100,7 @@ projects[advanced_help][subdir] = "contrib"
 projects[git_deploy][subdir] = "contrib"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.18"
+projects[webform][version] = "3.19"
 
 ; theme
 projects[omega][type] = "theme"
@@ -97,11 +121,6 @@ projects[finurlig_widget][subdir] = "custom"
 projects[finurlig_widget][download][type] = "git"
 projects[finurlig_widget][download][url] = "git@github.com:aakb/finurlig_widget.git"
 projects[finurlig_widget][download][tag] = "7.x-1.3"
-
-projects[ding_place2book][type] = "module"
-projects[ding_place2book][download][type] = "git"
-projects[ding_place2book][download][url] = "git@github.com:vejlebib/ding_place2book.git"
-projects[ding_place2book][download][branch] = "ding2tal_compatibility"
 
 projects[oc_cookie][type] = "module"
 projects[oc_cookie][subdir] = "features"
