@@ -6,6 +6,9 @@ includes[] = drupal-org-core.make
 ;libraries
 
 ;contrib
+projects[pathauto][subdir] = "contrib"
+projects[pathauto][version] = 1.2
+
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = 1.2
 
