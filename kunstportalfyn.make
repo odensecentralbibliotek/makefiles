@@ -30,6 +30,9 @@ projects[mailsystem][version] = 2.34
 projects[htmlmail][subdir] = "contrib"
 projects[htmlmail][version] = 2.65
 
+projects[media][subdir] = "contrib"
+projects[media][version] = 1.3
+
 projects[media_browser_plus][subdir] = "contrib"
 projects[media_browser_plus][version] = 3.0-beta1
 
