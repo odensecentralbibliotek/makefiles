@@ -4,11 +4,14 @@ core = 7.x
 includes[] = drupal-org-core.make
 
 ;libraries
-libraries[tablesorter][download][type] = get
-libraries[tablesorter][download][url] = http://tablesorter.com/__jquery.tablesorter.zip
-libraries[tablesorter][destination] = libraries
 
 ;contrib
+projects[media_browser_plus][subdir] = "contrib"
+projects[media_browser_plus][version] = 3.0-beta1
+
+projects[profile2][subdir] = "contrib"
+projects[profile2][version] = 1.3
+
 projects[account_profile][subdir] = "contrib"
 projects[account_profile][version] = 2.0-beta1
 
@@ -19,9 +22,6 @@ projects[features_override][patch][] = http://drupal.org/files/1955638-var-expor
 projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = 2.0-beta1
 projects[nodequeue][patch][] = http://drupal.org/files/nodequeue-rules_integration-1125922-31.patch
-
-projects[tablesorter][subdir] = "contrib"
-projects[tablesorter][version] = "1.1"
 
 projects[sweaver][subdir] = "contrib"
 projects[sweaver][version] = "1.3"
@@ -48,9 +48,6 @@ projects[taxonomy_menu][version] = "1.4"
 
 projects[menu_rules][subdir] = "contrib"
 projects[menu_rules][version] = "1.3"
-
-projects[opening_hours][subdir] = "contrib"
-projects[opening_hours][version] = "1.3"
 
 ;Panels Hash Cache, caching Search Ting Panel
 projects[panels_hash_cache][subdir] = "contrib"
