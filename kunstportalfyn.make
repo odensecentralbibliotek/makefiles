@@ -6,6 +6,9 @@ includes[] = drupal-org-core.make
 ;libraries
 
 ;contrib
+projects[panels_everywhere][subdir] = "contrib"
+projects[panels_everywhere][version] = 1.0-rc1
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = 1.2
 
