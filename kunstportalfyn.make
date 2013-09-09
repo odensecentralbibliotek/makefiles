@@ -4,10 +4,13 @@ core = 7.x
 includes[] = drupal-org-core.make
 
 ;libraries
+libraries[tablesorter][download][type] = get
+libraries[tablesorter][download][url] = http://galleria.io/static/galleria-1.2.9.zip
+libraries[tablesorter][destination] = libraries
 
 ;contrib
-projects[panels_everywhere][subdir] = "contrib"
-projects[panels_everywhere][version] = 1.0-rc1
+projects[galleria][subdir] = "contrib"
+projects[galleria][version] = 1.0-beta3
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = 1.2
