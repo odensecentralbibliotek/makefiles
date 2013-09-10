@@ -9,6 +9,15 @@ libraries[tablesorter][download][url] = http://tablesorter.com/__jquery.tablesor
 libraries[tablesorter][destination] = libraries
 
 ;contrib
+projects[simplenews][subdir] = "contrib"
+projects[simplenews][version] = 1.0
+
+projects[mailsystem][subdir] = "contrib"
+projects[mailsystem][version] = 2.34
+
+projects[htmlmail][subdir] = "contrib"
+projects[htmlmail][version] = 2.65
+
 projects[account_profile][subdir] = "contrib"
 projects[account_profile][version] = 2.0-beta1
 
