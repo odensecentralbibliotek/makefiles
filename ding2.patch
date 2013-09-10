@@ -124,10 +124,10 @@ index 826e096..f51cf93 100644
 +includes[] = ding2tal-override.make
 diff --git a/ding2tal-override.make b/ding2tal-override.make
 new file mode 100644
-index 0000000..a60baf9
+index 0000000..747aa52
 --- /dev/null
 +++ b/ding2tal-override.make
-@@ -0,0 +1,221 @@
+@@ -0,0 +1,225 @@
 +projects[variable][subdir] = "contrib"
 +projects[variable][version] = "2.2"
 +
@@ -208,6 +208,10 @@ index 0000000..a60baf9
 +projects[ding_debt][type] = module
 +projects[ding_debt][download][type] = "git"
 +projects[ding_debt][download][url] = "https://github.com/odensecentralbibliotek/ding_debt.git"
++
++projects[ding_example_content][type] = module
++projects[ding_example_content][download][type] = "git"
++projects[ding_example_content][download][url] = "https://github.com/odensecentralbibliotek/ding_example_content.git"
 +
 +projects[ding_content][type] = module
 +projects[ding_content][download][type] = "git"
