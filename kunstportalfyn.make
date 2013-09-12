@@ -9,6 +9,9 @@ libraries[tablesorter][download][url] = http://galleria.io/static/galleria-1.2.9
 libraries[tablesorter][destination] = libraries
 
 ;contrib
+projects[og][subdir] = "contrib"
+projects[og][version] = 2.3
+
 projects[galleria][subdir] = "contrib"
 projects[galleria][version] = 1.0-beta3
 
