@@ -15,6 +15,9 @@ projects[og][version] = 2.3
 projects[galleria][subdir] = "contrib"
 projects[galleria][version] = 1.0-beta3
 
+projects[tb_megamenu][subdir] = "contrib"
+projects[tb_megamenu][version] = 1.0-beta2
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = 1.2
 
