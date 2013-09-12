@@ -40,7 +40,7 @@ projects[simplenews][subdir] = "contrib"
 projects[simplenews][version] = 1.0
 
 projects[mailsystem][subdir] = "contrib"
-projects[mailsystem][version] = 2.34 
+projects[mailsystem][version] = 2.34
 
 projects[htmlmail][subdir] = "contrib"
 projects[htmlmail][version] = 2.65
