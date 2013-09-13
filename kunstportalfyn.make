@@ -4,9 +4,9 @@ core = 7.x
 includes[] = drupal-org-core.make
 
 ;libraries
-libraries[tablesorter][download][type] = get
-libraries[tablesorter][download][url] = http://galleria.io/static/galleria-1.2.9.zip
-libraries[tablesorter][destination] = libraries
+libraries[galleria][download][type] = get
+libraries[galleria][download][url] = http://galleria.io/static/galleria-1.2.9.zip
+libraries[galleria][destination] = libraries
 
 ;contrib
 projects[galleria][subdir] = "contrib"
