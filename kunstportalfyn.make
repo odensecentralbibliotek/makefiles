@@ -8,6 +8,11 @@ libraries[galleria][download][type] = get
 libraries[galleria][download][url] = http://galleria.io/static/galleria-1.2.9.zip
 libraries[galleria][destination] = libraries
 
+libraries[CKEditor][download][type] = get
+libraries[CKEditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2.2/ckeditor_4.2.2_standard.zip
+libraries[CKEditor][destination] = libraries
+projects[CKEditor][patch][] = https://drupal.org/files/wysiwyg-ckeditor-4.1853550.172-do-not-test.patch
+
 ;contrib
 projects[og][subdir] = "contrib"
 projects[og][version] = 2.3
