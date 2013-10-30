@@ -142,6 +142,11 @@ projects[ding_tabroll][subdir] = "custom"
 projects[ding_tabroll][download][type] = "git"
 projects[ding_tabroll][download][url] = "git@github.com:odensecentralbibliotek/ding_tabroll.git"
 
+projects[ding_campaign][type] = "module"
+projects[ding_campaign][subdir] = "custom"
+projects[ding_campaign][download][type] = "git"
+projects[ding_campaign][download][url] = "git@github.com:odensecentralbibliotek/ding_campaign.git"
+
 projects[finurlig_widget][type] = "module"
 projects[finurlig_widget][subdir] = "custom"
 projects[finurlig_widget][download][type] = "git"
