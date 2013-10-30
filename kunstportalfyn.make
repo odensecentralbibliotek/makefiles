@@ -17,6 +17,9 @@ projects[CKEditor][patch][] = https://drupal.org/files/wysiwyg-ckeditor-4.185355
 projects[og][subdir] = "contrib"
 projects[og][version] = 2.3
 
+projects[roleassign][subdir] = "contrib"
+projects[roleassign][version] = 1.0
+
 projects[galleria][subdir] = "contrib"
 projects[galleria][version] = 1.0-beta3
 
