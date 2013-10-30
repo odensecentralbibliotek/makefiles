@@ -20,6 +20,9 @@ projects[og][version] = 2.3
 projects[roleassign][subdir] = "contrib"
 projects[roleassign][version] = 1.0
 
+projects[menu_admin_per_menu][subdir] = "contrib"
+projects[menu_admin_per_menu][version] = 1.0
+
 projects[galleria][subdir] = "contrib"
 projects[galleria][version] = 1.0-beta3
 
