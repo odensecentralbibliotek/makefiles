@@ -5,7 +5,7 @@ includes[] = drupal-org-core.make
 
 ;libraries
 libraries[galleria][download][type] = get
-libraries[galleria][download][url] = http://galleria.io/static/galleria-1.2.9.zip
+libraries[galleria][download][url] = http://galleria.io/static/galleria-1.3.2.zip
 libraries[galleria][destination] = libraries
 
 libraries[CKEditor][download][type] = get
