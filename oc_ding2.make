@@ -12,6 +12,9 @@ libraries[tablesorter][destination] = libraries
 projects[simplenews][subdir] = "contrib"
 projects[simplenews][version] = 1.0
 
+projects[exif_custom][subdir] = "contrib"
+projects[exif_custom][version] = 1.13
+
 projects[mailsystem][subdir] = "contrib"
 projects[mailsystem][version] = 2.34
 
