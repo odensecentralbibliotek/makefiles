@@ -75,11 +75,11 @@ index 826e096..f51cf93 100644
 -projects[ding_ting_frontend][download][url] = "git@github.com:ding2tal/ding_ting_frontend.git"
 -projects[ding_ting_frontend][download][branch] = "development"
 -
- projects[mkdru_ding_frontend][type] = "module"
- projects[mkdru_ding_frontend][download][type] = "git"
- projects[mkdru_ding_frontend][download][url] = "git@github.com:ding2tal/mkdru_ding_frontend.git"
- projects[mkdru_ding_frontend][download][branch] = "development"
- 
+- projects[mkdru_ding_frontend][type] = "module"
+- projects[mkdru_ding_frontend][download][type] = "git"
+- projects[mkdru_ding_frontend][download][url] = "git@github.com:ding2tal/mkdru_ding_frontend.git"
+- projects[mkdru_ding_frontend][download][branch] = "development"
+-
  ; CMS modules (Curate)
 -projects[ding_content][type] = module
 -projects[ding_content][download][type] = git
