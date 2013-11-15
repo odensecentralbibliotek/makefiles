@@ -9,6 +9,15 @@ libraries[tablesorter][download][url] = http://tablesorter.com/__jquery.tablesor
 libraries[tablesorter][destination] = libraries
 
 ;contrib
+projects[similarterms][subdir] = "contrib"
+projects[similarterms][version] = 1.x
+
+projects[l10n_update][subdir] = "contrib"
+projects[l10n_update][version] = 1.0-beta3
+
+projects[captcha][subdir] = "contrib"
+projects[captcha][version] = 1.0
+
 projects[media][subdir] = "contrib"
 projects[media][version] = 2.0-alpha3
 
@@ -16,7 +25,7 @@ projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = 2.0-alpha3
 
 projects[simplenews][subdir] = "contrib"
-projects[simplenews][version] = 1.0
+projects[simplenews][version] = 1.1
 
 projects[exif_custom][subdir] = "contrib"
 projects[exif_custom][version] = 1.13
@@ -105,6 +114,16 @@ projects[latto_odense][download][type] = "git"
 projects[latto_odense][download][url] = "git@github.com:odensecentralbibliotek/latto_odense.git"
 
 ; Custom modules
+projects[media_css][type] = "module"
+projects[media_css][subdir] = "custom"
+projects[media_css][download][type] = "git"
+projects[media_css][download][url] = "git@github.com:odensecentralbibliotek/media_css"
+
+projects[aggregator_blocklist][type] = "module"
+projects[aggregator_blocklist][subdir] = "custom"
+projects[aggregator_blocklist][download][type] = "git"
+projects[aggregator_blocklist][download][url] = "git@github.com:odensecentralbibliotek/aggregator_blocklist"
+
 projects[mobile_detect][type] = "module"
 projects[mobile_detect][subdir] = "custom"
 projects[mobile_detect][download][type] = "git"
