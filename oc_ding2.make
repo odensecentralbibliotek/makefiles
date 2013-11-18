@@ -10,7 +10,9 @@ libraries[tablesorter][destination] = libraries
 
 ;contrib
 projects[similarterms][subdir] = "contrib"
-projects[similarterms][version] = 1.x
+projects[similarterms][download][type] = "git"
+projects[similarterms][download][url] = "http://git.drupal.org/project/similarterms.git"
+projects[similarterms][download][branch] = "7.x-1.x"
 
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = 1.0-beta3
