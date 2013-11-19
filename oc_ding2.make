@@ -9,6 +9,9 @@ libraries[tablesorter][download][url] = http://tablesorter.com/__jquery.tablesor
 libraries[tablesorter][destination] = libraries
 
 ;contrib
+projects[node_clone][subdir] = "contrib"
+projects[node_clone][version] = 1.0-rc1
+
 projects[similarterms][subdir] = "contrib"
 projects[similarterms][download][type] = "git"
 projects[similarterms][download][url] = "http://git.drupal.org/project/similarterms.git"
