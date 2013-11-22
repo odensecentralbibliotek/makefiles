@@ -172,7 +172,7 @@ projects[webform][subdir] = "contrib"
 projects[media_css][type] = "module"
 projects[media_css][subdir] = "custom"
 projects[media_css][download][type] = "git"
-projects[media_css][download][url] = "git@github.com:odensecentralbibliotek/media_css.git
+projects[media_css][download][url] = "git@github.com:Kunstportalfyn/media_css.git
 
 projects[mobile_detect][type] = "module"
 projects[mobile_detect][subdir] = "custom"
@@ -216,6 +216,5 @@ projects[views][subdir] = "contrib"
 projects[views][version] = "3.7"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-beta2"
-projects[features][patch][] = "https://drupal.org/files/rebuild-file-list-properly-1265168-38.patch"
+projects[features][version] = "2.0"
 
