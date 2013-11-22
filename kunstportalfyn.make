@@ -130,7 +130,6 @@ projects[print][version] = "1.2"
 
 projects[addthis][subdir] = "contrib"
 projects[addthis][version] = "4.0-alpha2"
-projects[addthis][patch][1734752] = https://drupal.org/files/1734752-https-button-img-3.patch
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.7"
@@ -172,7 +171,7 @@ projects[webform][subdir] = "contrib"
 projects[media_css][type] = "module"
 projects[media_css][subdir] = "custom"
 projects[media_css][download][type] = "git"
-projects[media_css][download][url] = "git@github.com:Kunstportalfyn/media_css.git
+projects[media_css][download][url] = "git@github.com:Kunstportalfyn/media_css.git"
 
 projects[mobile_detect][type] = "module"
 projects[mobile_detect][subdir] = "custom"
