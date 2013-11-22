@@ -40,9 +40,6 @@ projects[geocoder][version] = 1.2
 projects[geofield][subdir] = "contrib"
 projects[geofield][version] = 1.2
 
-projects[geofield_map][subdir] = "contrib"
-projects[geofield_map][version] = 1.2
-
 projects[geophp][subdir] = "contrib"
 projects[geophp][version] = 1.7
 
