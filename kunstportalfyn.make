@@ -202,7 +202,7 @@ projects[mobile_detect][download][url] = "git@github.com:odensecentralbibliotek/
 projects[ding_tabroll][type] = "module"
 projects[ding_tabroll][subdir] = "custom"
 projects[ding_tabroll][download][type] = "git"
-projects[ding_tabroll][download][url] = "git@github.com:odensecentralbibliotek/ding_tabroll.git"
+projects[ding_tabroll][download][url] = "git@github.com:Kunstportalfyn/ding_tabroll.git"
 
 projects[ding_campaign][type] = "module"
 projects[ding_campaign][subdir] = "custom"
