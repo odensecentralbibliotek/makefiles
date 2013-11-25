@@ -15,8 +15,11 @@ libraries[galleria][download][url] = http://galleria.io/static/galleria-1.3.2.zi
 libraries[galleria][destination] = libraries
 
 libraries[CKEditor][download][type] = get
-libraries[CKEditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2.2/ckeditor_4.2.2_standard.zip
-libraries[CKEditor][destination] = libraries
+libraries[CKEditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3/ckeditor_4.3_standard.zip
+ibraries[CKEditor][destination] = libraries
+ibraries[CKEditor][patch][] = https://drupal.org/files/wysiwyg-ckeditor-4.1853550.172-do-not-test.patch
+
+
 
 ;contrib
 projects[l10n_update][subdir] = "contrib"
@@ -193,11 +196,6 @@ projects[media_css][type] = "module"
 projects[media_css][subdir] = "custom"
 projects[media_css][download][type] = "git"
 projects[media_css][download][url] = "git@github.com:Kunstportalfyn/media_css.git"
-
-projects[mobile_detect][type] = "module"
-projects[mobile_detect][subdir] = "custom"
-projects[mobile_detect][download][type] = "git"
-projects[mobile_detect][download][url] = "git@github.com:odensecentralbibliotek/mobile_detect.git"
 
 projects[ding_tabroll][type] = "module"
 projects[ding_tabroll][subdir] = "custom"
