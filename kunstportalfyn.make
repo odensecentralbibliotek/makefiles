@@ -3,6 +3,12 @@ core = 7.x
 
 includes[] = drupal-org-core.make
 
+;theme
+projects[kunst_theme][type] = "theme"
+projects[kunst_theme][download][type] = "git"
+projects[kunst_theme][download][url] = "git@github.com:Kunstportalfyn/kunst_theme"
+
+
 ;libraries
 libraries[galleria][download][type] = get
 libraries[galleria][download][url] = http://galleria.io/static/galleria-1.3.2.zip
@@ -13,6 +19,21 @@ libraries[CKEditor][download][url] = http://download.cksource.com/CKEditor/CKEdi
 libraries[CKEditor][destination] = libraries
 
 ;contrib
+projects[l10n_update][subdir] = "contrib"
+projects[l10n_update][version] = 1.0-beta3
+
+projects[strongarm][subdir] = "contrib"
+projects[strongarm][version] = 2.0
+
+projects[similarterms][subdir] = "contrib"
+projects[similarterms][version] = 2.3
+
+projects[i18n][subdir] = "contrib"
+projects[i18n][version] = 1.10
+
+projects[custom_search][subdir] = "contrib"
+projects[custom_search][version] = 1.13
+
 projects[taxonomy_menu_trails][subdir] = "contrib"
 projects[taxonomy_menu_trails][version] = 2.5
 
