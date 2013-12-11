@@ -113,6 +113,10 @@ projects[git_deploy][subdir] = "contrib"
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.18"
 
+projects[cache_actions][subdir] = "contrib"
+projects[cache_actions][version] = "2.0-alpha5"
+projects[cache_actions][patch][2151445] = "https://drupal.org/files/issues/cache_actions-granularity-2151445-3.patch"
+
 ; theme
 projects[latto_odense][type] = "theme"
 projects[latto_odense][download][type] = "git"
