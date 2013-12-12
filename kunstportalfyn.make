@@ -215,6 +215,9 @@ projects[oc_cookie][download][url] = "https://github.com/odensecentralbibliotek/
 projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.2"
 
+projects[wysiwyg_filter][subdir] = "contrib"
+projects[wysiwyg_filter][version] = "1.6-rc2"
+
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 
