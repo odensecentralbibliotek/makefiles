@@ -8,7 +8,14 @@ libraries[tablesorter][download][type] = get
 libraries[tablesorter][download][url] = http://tablesorter.com/__jquery.tablesorter.zip
 libraries[tablesorter][destination] = libraries
 
+libraries[htmlpurifier][download][type] = get
+libraries[htmlpurifier][download][url] = http://htmlpurifier.org/releases/htmlpurifier-4.6.0.tar.gz
+libraries[htmlpurifier][destination] = libraries
+
 ;contrib
+projects[htmlpurifier][subdir] = "contrib"
+projects[htmlpurifier][version] = 1.0
+
 projects[node_clone][subdir] = "contrib"
 projects[node_clone][version] = 1.0-rc1
 
@@ -123,6 +130,11 @@ projects[latto_odense][download][type] = "git"
 projects[latto_odense][download][url] = "git@github.com:odensecentralbibliotek/latto_odense.git"
 
 ; Custom modules
+projects[wysiwygpatch][type] = "module"
+projects[wysiwygpatch][subdir] = "custom"
+projects[wysiwygpatch][download][type] = "git"
+projects[wysiwygpatch][download][url] = "git@github.com:Kunstportalfyn/wysiwygpatch
+
 projects[media_css][type] = "module"
 projects[media_css][subdir] = "custom"
 projects[media_css][download][type] = "git"
