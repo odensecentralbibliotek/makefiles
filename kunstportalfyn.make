@@ -10,6 +10,10 @@ projects[kunst_theme][download][url] = "git@github.com:Kunstportalfyn/kunst_them
 
 
 ;libraries
+libraries[htmlpurifier][download][type] = get
+libraries[htmlpurifier][download][url] = http://htmlpurifier.org/releases/htmlp$
+libraries[htmlpurifier][destination] = libraries
+
 libraries[galleria][download][type] = get
 libraries[galleria][download][url] = http://galleria.io/static/galleria-1.3.2.zip
 libraries[galleria][destination] = libraries
@@ -20,8 +24,10 @@ ibraries[CKEditor][destination] = libraries
 ibraries[CKEditor][patch][] = https://drupal.org/files/wysiwyg-ckeditor-4.1853550.172-do-not-test.patch
 
 
-
 ;contrib
+projects[htmlpurifier][subdir] = "contrib"
+projects[htmlpurifier][version] = 1.0
+
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = 1.0-beta3
 
@@ -195,6 +201,11 @@ projects[git_deploy][subdir] = "contrib"
 projects[webform][subdir] = "contrib"
 
 ; Custom modules
+projects[wysiwygpatch][type] = "module"
+projects[wysiwygpatch][subdir] = "custom"
+projects[wysiwygpatch][download][type] = "git"
+projects[wysiwygpatch][download][url] = "git@github.com:Kunstportalfyn/wysiwygp$
+
 projects[media_css][type] = "module"
 projects[media_css][subdir] = "custom"
 projects[media_css][download][type] = "git"
