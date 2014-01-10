@@ -139,8 +139,11 @@ projects[mailsystem][version] = 2.34
 projects[htmlmail][subdir] = "contrib"
 projects[htmlmail][version] = 2.65
 
-projects[media][subdir] = "contrib"
-projects[media][version] = 2.0-alpha2
+projects[media][subdir] = contrib
+projects[media][type] = module
+projects[media][download][type] = git
+projects[media][download][revision] = a84bd30cd69ef2c9e8ea4ab0663dee5bb7ab9e5e
+projects[media][download][branch] = 7.x-2.x
 
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = 1.3
@@ -225,6 +228,9 @@ projects[oc_cookie][download][url] = "https://github.com/odensecentralbibliotek/
 
 projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.2"
+
+projects[wysiwyg_filter][subdir] = "contrib"
+projects[wysiwyg_filter][version] = "1.6-rc2"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
