@@ -11,7 +11,7 @@ projects[kunst_theme][download][url] = "git@github.com:Kunstportalfyn/kunst_them
 
 ;libraries
 libraries[htmlpurifier][download][type] = get
-libraries[htmlpurifier][download][url] = http://htmlpurifier.org/releases/htmlp$
+libraries[htmlpurifier][download][url] = http://htmlpurifier.org/releases/htmlpurifier-4.6.0.zip
 libraries[htmlpurifier][destination] = libraries
 
 libraries[galleria][download][type] = get
@@ -146,7 +146,6 @@ projects[media][subdir] = contrib
 projects[media][type] = module
 projects[media][download][type] = git
 projects[media][download][revision] = a84bd30cd69ef2c9e8ea4ab0663dee5bb7ab9e5e
-projects[media][download][branch] = 7.x-2.x
 
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = 1.3
@@ -207,27 +206,27 @@ projects[webform][subdir] = "contrib"
 projects[wysiwygpatch][type] = "module"
 projects[wysiwygpatch][subdir] = "custom"
 projects[wysiwygpatch][download][type] = "git"
-projects[wysiwygpatch][download][url] = "git@github.com:Kunstportalfyn/wysiwygp$
+projects[wysiwygpatch][download][url] = "git@github.com:Kunstportalfyn/wysiwygpatch"
 
 projects[media_css][type] = "module"
 projects[media_css][subdir] = "custom"
 projects[media_css][download][type] = "git"
-projects[media_css][download][url] = "git@github.com:Kunstportalfyn/media_css.git"
+projects[media_css][download][url] = "git@github.com:Kunstportalfyn/media_css"
 
 projects[ding_tabroll][type] = "module"
 projects[ding_tabroll][subdir] = "custom"
 projects[ding_tabroll][download][type] = "git"
-projects[ding_tabroll][download][url] = "git@github.com:Kunstportalfyn/ding_tabroll.git"
+projects[ding_tabroll][download][url] = "git@github.com:Kunstportalfyn/ding_tabroll"
 
 projects[ding_campaign][type] = "module"
 projects[ding_campaign][subdir] = "custom"
 projects[ding_campaign][download][type] = "git"
-projects[ding_campaign][download][url] = "git@github.com:odensecentralbibliotek/ding_campaign.git"
+projects[ding_campaign][download][url] = "git@github.com:odensecentralbibliotek/ding_campaign"
 
 projects[oc_cookie][type] = "module"
 projects[oc_cookie][subdir] = "features"
 projects[oc_cookie][download][type] = "git"
-projects[oc_cookie][download][url] = "https://github.com/odensecentralbibliotek/oc_cookie.git"
+projects[oc_cookie][download][url] = "https://github.com/odensecentralbibliotek/oc_cookie"
 
 projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.2"
