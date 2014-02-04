@@ -47,6 +47,7 @@ projects[mailsystem][version] = 2.34
 
 projects[htmlmail][subdir] = "contrib"
 projects[htmlmail][version] = 2.65
+projects[htmlmail][patch][] = http://drupal.org/files/1744200-text-translation.patch
 
 projects[account_profile][subdir] = "contrib"
 projects[account_profile][version] = 2.0-beta1
