@@ -18,11 +18,9 @@ libraries[galleria][download][type] = get
 libraries[galleria][download][url] = http://galleria.io/static/galleria-1.3.2.zip
 libraries[galleria][destination] = libraries
 
-libraries[CKEditor][download][type] = get
-libraries[CKEditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.2/ckeditor_4.3.2_full.zip
-ibraries[CKEditor][destination] = libraries
-ibraries[CKEditor][patch][] = https://drupal.org/files/wysiwyg-ckeditor-4.1853550.172-do-not-test.patch
-
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.2/ckeditor_4.3.2_full.zip
+libraries[ckeditor][destination] = libraries
 
 ;contrib
 projects[better_formats][subdir] = "contrib"
@@ -236,6 +234,7 @@ projects[wysiwyg_filter][version] = "1.6-rc2"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][patch][] = https://drupal.org/files/wysiwyg-ckeditor-4.1853550.172-do-not-test.patch
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.5"
