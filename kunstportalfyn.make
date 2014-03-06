@@ -23,6 +23,9 @@ libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEdi
 libraries[ckeditor][destination] = libraries
 
 ;contrib
+projects[views_data_export][subdir] = "contrib"
+projects[views_data_export][version] = 3.0-beta7
+
 projects[better_formats][subdir] = "contrib"
 projects[better_formats][version] = 1.0-beta1
 
