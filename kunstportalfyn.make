@@ -183,6 +183,10 @@ projects[menu_rules][version] = "1.3"
 projects[panels_hash_cache][subdir] = "contrib"
 projects[panels_hash_cache][version] = "1.0-alpha1"
 
+projects[cache_actions][subdir] = "contrib"
+projects[cache_actions][version] = "2.0-alpha5"
+projects[cache_actions][patch][2151445] = "https://drupal.org/files/issues/cache_actions-granularity-2151445-3.patch"
+
 ;Inspiration page, the menu on news category needs this.
 projects[taxonomy_edge][subdir] = "contrib"
 projects[taxonomy_edge][version] = "1.7"
