@@ -13,6 +13,12 @@ libraries[htmlpurifier][download][url] = http://htmlpurifier.org/releases/htmlpu
 libraries[htmlpurifier][destination] = libraries
 
 ;contrib
+projects[readonlymode][subdir] = "contrib"
+projects[readonlymode][version] = 1.1
+
+projects[elysia_cron][subdir] = "contrib"
+projects[elysia_cron][version] = 2.1
+
 projects[htmlpurifier][subdir] = "contrib"
 projects[htmlpurifier][version] = 1.0
 
