@@ -134,7 +134,7 @@ projects[latto_odense][download][url] = "git@github.com:odensecentralbibliotek/l
 projects[wysiwygpatch][type] = "module"
 projects[wysiwygpatch][subdir] = "custom"
 projects[wysiwygpatch][download][type] = "git"
-projects[wysiwygpatch][download][url] = "git@github.com:Kunstportalfyn/wysiwygpatch
+projects[wysiwygpatch][download][url] = "git@github.com:Kunstportalfyn/wysiwygpatch.git"
 
 projects[media_css][type] = "module"
 projects[media_css][subdir] = "custom"
