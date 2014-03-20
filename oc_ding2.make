@@ -175,6 +175,7 @@ projects[finurlig_widget][download][url] = "git@github.com:aakb/finurlig_widget.
 projects[finurlig_widget][download][tag] = "7.x-1.3"
 
 projects[ding_place2book][type] = "module"
+projects[ding_tabroll][subdir] = "custom"
 projects[ding_place2book][download][type] = "git"
 projects[ding_place2book][download][url] = "git@github.com:vejlebib/ding_place2book.git"
 projects[ding_place2book][download][branch] = "ding2tal_compatibility"
