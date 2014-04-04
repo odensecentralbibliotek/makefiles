@@ -76,7 +76,7 @@ projects[print][subdir] = "contrib"
 projects[print][version] = "1.2"
 
 projects[addthis][subdir] = "contrib"
-projects[addthis][version] = "4.0-alpha2"
+projects[addthis][version] = "4.0-alpha4"
 projects[addthis][patch][1734752] = https://drupal.org/files/1734752-https-button-img-3.patch
 
 projects[fontyourface][subdir] = "contrib"
