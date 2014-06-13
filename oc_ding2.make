@@ -12,7 +12,17 @@ libraries[htmlpurifier][download][type] = get
 libraries[htmlpurifier][download][url] = http://htmlpurifier.org/releases/htmlpurifier-4.6.0.tar.gz
 libraries[htmlpurifier][destination] = libraries
 
+libraries[galleria][download][type] = get
+libraries[galleria][download][url] = http://galleria.io/static/galleria-1.3.2.zip
+libraries[galleria][destination] = libraries
+
 ;contrib
+projects[galleria][subdir] = "contrib"
+projects[galleria][version] = 1.0-beta3
+
+projects[back_to_top][subdir] = "contrib"
+projects[back_to_top][version] = 1.4
+
 projects[readonlymode][subdir] = "contrib"
 projects[readonlymode][version] = 1.1
 
