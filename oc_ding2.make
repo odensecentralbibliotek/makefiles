@@ -13,7 +13,7 @@ libraries[htmlpurifier][download][url] = http://htmlpurifier.org/releases/htmlpu
 libraries[htmlpurifier][destination] = libraries
 
 libraries[galleria][download][type] = get
-libraries[galleria][download][url] = http://galleria.io/static/galleria-1.3.2.zip
+libraries[galleria][download][url] = http://galleria.io/static/galleria-1.3.5.zip
 libraries[galleria][destination] = libraries
 
 ;contrib
@@ -24,7 +24,7 @@ projects[back_to_top][subdir] = "contrib"
 projects[back_to_top][version] = 1.4
 
 projects[readonlymode][subdir] = "contrib"
-projects[readonlymode][version] = 1.1
+projects[readonlymode][version] = 1.2
 
 projects[elysia_cron][subdir] = "contrib"
 projects[elysia_cron][version] = 2.1
@@ -33,15 +33,15 @@ projects[htmlpurifier][subdir] = "contrib"
 projects[htmlpurifier][version] = 1.0
 
 projects[node_clone][subdir] = "contrib"
-projects[node_clone][version] = 1.0-rc1
+projects[node_clone][version] = 1.0-rc2
 
 projects[similarterms][subdir] = "contrib"
 projects[similarterms][download][type] = "git"
 projects[similarterms][download][url] = "http://git.drupal.org/project/similarterms.git"
-projects[similarterms][download][branch] = "7.x-1.x"
+projects[similarterms][download][branch] = "7.x-2.3"
 
 projects[l10n_update][subdir] = "contrib"
-projects[l10n_update][version] = 1.0-beta3
+projects[l10n_update][version] = 1.0
 
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = 1.0
@@ -56,7 +56,7 @@ projects[simplenews][subdir] = "contrib"
 projects[simplenews][version] = 1.1
 
 projects[exif_custom][subdir] = "contrib"
-projects[exif_custom][version] = 1.13
+projects[exif_custom][version] = 1.14
 
 projects[mailsystem][subdir] = "contrib"
 projects[mailsystem][version] = 2.34
@@ -66,7 +66,7 @@ projects[htmlmail][version] = 2.65
 projects[htmlmail][patch][] = http://drupal.org/files/1744200-text-translation.patch
 
 projects[account_profile][subdir] = "contrib"
-projects[account_profile][version] = 2.0-beta1
+projects[account_profile][version] = 2.0
 
 projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = 2.0-beta1
@@ -80,29 +80,29 @@ projects[sweaver][version] = "1.3"
 projects[sweaver][patch][] = http://drupal.org/files/panels-everywhere.patch
 
 projects[scheduler][subdir] = "contrib"
-projects[scheduler][version] = "1.1"
+projects[scheduler][version] = "1.2"
 
 projects[print][subdir] = "contrib"
-projects[print][version] = "1.2"
+projects[print][version] = "2.0"
 
 projects[addthis][subdir] = "contrib"
 projects[addthis][version] = "4.0-alpha4"
 projects[addthis][patch][1734752] = https://drupal.org/files/1734752-https-button-img-3.patch
 
 projects[fontyourface][subdir] = "contrib"
-projects[fontyourface][version] = "2.7"
+projects[fontyourface][version] = "2.8"
 
 projects[search_config][subdir] = "contrib"
-projects[search_config][version] = "1.0"
+projects[search_config][version] = "1.1"
 
 projects[taxonomy_menu][subdir] = "contrib"
-projects[taxonomy_menu][version] = "1.4"
+projects[taxonomy_menu][version] = "1.5"
 
 projects[menu_rules][subdir] = "contrib"
-projects[menu_rules][version] = "1.3"
+projects[menu_rules][version] = "1.4"
 
 projects[opening_hours][subdir] = "contrib"
-projects[opening_hours][version] = "1.3"
+projects[opening_hours][version] = "1.4"
 
 ;Panels Hash Cache, caching Search Ting Panel
 projects[panels_hash_cache][subdir] = "contrib"
@@ -110,7 +110,8 @@ projects[panels_hash_cache][version] = "1.0-alpha1"
 
 ;Inspiration page, the menu on news category needs this.
 projects[taxonomy_edge][subdir] = "contrib"
-projects[taxonomy_edge][version] = "1.7"
+projects[taxonomy_edge][version] = "1.8"
+
 projects[taxonomy_menu_trails][subdir] = "contrib"
 projects[taxonomy_menu_trails][version] = "2.5"
 
@@ -131,7 +132,7 @@ projects[advanced_help][subdir] = "contrib"
 projects[git_deploy][subdir] = "contrib"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.18"
+projects[webform][version] = "3.20"
 
 projects[cache_actions][subdir] = "contrib"
 projects[cache_actions][version] = "2.0-alpha5"
