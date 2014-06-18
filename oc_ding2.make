@@ -216,5 +216,5 @@ projects[oc_cookie][download][url] = "https://github.com/odensecentralbibliotek/
 projects[ding2][type] = "profile"
 projects[ding2][download][type] = "git"
 projects[ding2][download][url] = "git@github.com:odensecentralbibliotek/ding2.git"
-projects[ding2][patch][] = "https://raw.github.com/odensecentralbibliotek/makefiles/master/ding2.patch"
+projects[ding2][patch][] = "https://raw.githubusercontent.com/odensecentralbibliotek/makefiles/master/ding2.patch"
 
