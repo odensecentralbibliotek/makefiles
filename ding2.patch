@@ -349,8 +349,3 @@ index 0000000..5016af0
 +projects[ting_infomedia][type] = module
 +projects[ting_infomedia][download][type] = "git"
 +projects[ting_infomedia][download][url] = "https://github.com/odensecentralbibliotek/ting_infomedia.git"
-+
-+projects[ding2][type] = "profile"
-+projects[ding2][download][type] = "git"
-+projects[ding2][download][url] = "git@github.com:odensecentralbibliotek/ding2.git"
-+projects[ding2][patch][] = "https://raw.githubusercontent.com/odensecentralbibliotek/makefiles/master/ding2.patch"
