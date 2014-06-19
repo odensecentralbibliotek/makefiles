@@ -17,6 +17,12 @@ libraries[galleria][download][url] = http://galleria.io/static/galleria-1.3.5.zi
 libraries[galleria][destination] = libraries
 
 ;contrib
+projects[robotstxt][subdir] = "contrib"
+projects[robotstxt][version] = 1.2
+
+projects[entitycache][subdir] = "contrib"
+projects[entitycache][version] = 1.2
+
 projects[galleria][subdir] = "contrib"
 projects[galleria][version] = 1.0-beta3
 
