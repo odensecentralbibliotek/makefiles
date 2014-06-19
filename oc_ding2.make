@@ -159,6 +159,11 @@ projects[media_css][subdir] = "custom"
 projects[media_css][download][type] = "git"
 projects[media_css][download][url] = "git@github.com:odensecentralbibliotek/media_css"
 
+projects[materials_schelduer][type] = "module"
+projects[materials_schelduer][subdir] = "custom"
+projects[materials_schelduer][download][type] = "git"
+projects[materials_schelduer][download][url] = "git@github.com:odensecentralbibliotek/materials_schelduer"
+
 projects[aggregator_blocklist][type] = "module"
 projects[aggregator_blocklist][subdir] = "custom"
 projects[aggregator_blocklist][download][type] = "git"
