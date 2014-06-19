@@ -87,7 +87,6 @@ projects[print][version] = "2.0"
 
 projects[addthis][subdir] = "contrib"
 projects[addthis][version] = "4.0-alpha4"
-projects[addthis][patch][1734752] = https://drupal.org/files/1734752-https-button-img-3.patch
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
