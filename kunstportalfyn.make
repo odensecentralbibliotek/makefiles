@@ -45,7 +45,7 @@ projects[similarterms][subdir] = "contrib"
 projects[similarterms][version] = 2.3
 
 projects[i18n][subdir] = "contrib"
-projects[i18n][version] = 1.10
+projects[i18n][version] = 1.11
 
 projects[custom_search][subdir] = "contrib"
 projects[custom_search][version] = 1.13
