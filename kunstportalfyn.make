@@ -259,7 +259,7 @@ projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.3"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.7"
+projects[views][version] = "3.8"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0"
