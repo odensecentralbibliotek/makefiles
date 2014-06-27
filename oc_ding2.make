@@ -53,10 +53,10 @@ projects[captcha][subdir] = "contrib"
 projects[captcha][version] = 1.0
 
 projects[media][subdir] = "contrib"
-projects[media][version] = 2.0-alpha3
+projects[media][version] = 2.0-unstable7
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = 2.0-alpha3
+projects[file_entity][version] = 2.0-unstable7
 
 projects[simplenews][subdir] = "contrib"
 projects[simplenews][version] = 1.1
