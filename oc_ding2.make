@@ -199,7 +199,6 @@ projects[ding_place2book][type] = "module"
 projects[ding_place2book][subdir] = "custom"
 projects[ding_place2book][download][type] = "git"
 projects[ding_place2book][download][url] = "git@github.com:vejlebib/ding_place2book.git"
-projects[ding_place2book][download][branch] = "ding2tal_compatibility"
 
 ;Features
 projects[ding_oc_latto_frontend][type] = "module"
