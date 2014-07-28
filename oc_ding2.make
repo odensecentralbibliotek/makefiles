@@ -201,7 +201,12 @@ projects[finurlig_widget][download][tag] = "7.x-1.3"
 projects[ding_place2book][type] = "module"
 projects[ding_place2book][subdir] = "custom"
 projects[ding_place2book][download][type] = "git"
-projects[ding_place2book][download][url] = "git@github.com:vejlebib/ding_place2book.git"
+projects[ding_place2book][download][url] = "git@github.com:odensecentralbibliotek/ding_place2book.git"
+
+projects[ding_redia_bapp][type] = "module"
+projects[ding_redia_bapp][subdir] = "custom"
+projects[ding_redia_bapp][download][type] = "git"
+projects[ding_redia_bapp][download][url] = "git@github.com:odensecentralbibliotek/ding_redia_bapp.git"
 
 ;Features
 projects[ding_oc_latto_frontend][type] = "module"
@@ -224,8 +229,9 @@ projects[oc_cookie][subdir] = "features"
 projects[oc_cookie][download][type] = "git"
 projects[oc_cookie][download][url] = "https://github.com/odensecentralbibliotek/oc_cookie.git"
 
+
 ;Ding2tal
 projects[ding2][type] = "profile"
 projects[ding2][download][type] = "git"
 projects[ding2][download][url] = "git@github.com:odensecentralbibliotek/ding2.git"
-projects[ding2][patch][] = "https://raw.githubusercontent.com/odensecentralbibliotek/makefiles/master/ding2.patch"
+;projects[ding2][patch][] = "https://raw.githubusercontent.com/odensecentralbibliotek/makefiles/master/ding2.patch"
