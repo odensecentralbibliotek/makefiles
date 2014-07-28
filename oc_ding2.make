@@ -143,8 +143,8 @@ projects[cache_actions][subdir] = "contrib"
 projects[cache_actions][version] = "2.0-alpha5"
 projects[cache_actions][patch][2151445] = "https://drupal.org/files/issues/cache_actions-granularity-2151445-3.patch"
 
-projects[Facebook_Autopost][subdir] = "contrib"
-projects[Facebook_Autopost][version] = "1.2"
+projects[fb_autopost][subdir] = "contrib"
+projects[fb_autopost][version] = "1.2"
 
 ; theme
 projects[latto_odense][type] = "theme"
