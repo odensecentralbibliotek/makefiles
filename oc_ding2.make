@@ -203,12 +203,13 @@ projects[ding_place2book][subdir] = "custom"
 projects[ding_place2book][download][type] = "git"
 projects[ding_place2book][download][url] = "git@github.com:odensecentralbibliotek/ding_place2book.git"
 
+
+;Features
 projects[ding_redia_bapp][type] = "module"
-projects[ding_redia_bapp][subdir] = "custom"
+projects[ding_redia_bapp][subdir] = "features"
 projects[ding_redia_bapp][download][type] = "git"
 projects[ding_redia_bapp][download][url] = "git@github.com:odensecentralbibliotek/ding_redia_bapp.git"
 
-;Features
 projects[ding_oc_latto_frontend][type] = "module"
 projects[ding_oc_latto_frontend][subdir] = "features"
 projects[ding_oc_latto_frontend][download][type] = "git"
