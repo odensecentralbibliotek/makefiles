@@ -107,7 +107,7 @@ projects[menu_rules][subdir] = "contrib"
 projects[menu_rules][version] = "1.4"
 
 projects[opening_hours][subdir] = "contrib"
-projects[opening_hours][version] = "1.4"
+projects[opening_hours][version] = "1.3"
 
 ;Panels Hash Cache, caching Search Ting Panel
 projects[panels_hash_cache][subdir] = "contrib"
