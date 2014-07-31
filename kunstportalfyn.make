@@ -48,7 +48,7 @@ projects[i18n][subdir] = "contrib"
 projects[i18n][version] = 1.11
 
 projects[custom_search][subdir] = "contrib"
-projects[custom_search][version] = 1.13
+projects[custom_search][version] = 1.16
 
 projects[taxonomy_menu_trails][subdir] = "contrib"
 projects[taxonomy_menu_trails][version] = 2.5
@@ -132,7 +132,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = 3.1
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = 1.2
+projects[entity][version] = 1.5
 
 projects[multiform][subdir] = "contrib"
 projects[multiform][version] = 1.0
@@ -165,7 +165,7 @@ projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.1"
 
 projects[print][subdir] = "contrib"
-projects[print][version] = "1.2"
+projects[print][version] = "1.3"
 
 projects[addthis][subdir] = "contrib"
 projects[addthis][version] = "4.0-alpha2"
@@ -253,7 +253,7 @@ projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.3"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.4"
 
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.3"
