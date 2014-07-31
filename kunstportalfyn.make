@@ -63,7 +63,7 @@ projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = 2.0-alpha3
 
 projects[date][subdir] = "contrib"
-projects[date][version] = 2.6
+projects[date][version] = 2.8
 
 projects[exif_custom][subdir] = "contrib"
 projects[exif_custom][version] = 1.13
