@@ -229,6 +229,7 @@ projects[ding_tabroll][download][url] = "git@github.com:Kunstportalfyn/ding_tabr
 projects[ding_campaign][type] = "module"
 projects[ding_campaign][subdir] = "custom"
 projects[ding_campaign][download][type] = "git"
+projects[ding_campaign][download][branch] = "kunstportal"
 projects[ding_campaign][download][url] = "git@github.com:odensecentralbibliotek/ding_campaign"
 
 projects[oc_cookie][type] = "module"
