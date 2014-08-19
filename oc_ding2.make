@@ -20,6 +20,9 @@ libraries[galleria][destination] = libraries
 projects[robotstxt][subdir] = "contrib"
 projects[robotstxt][version] = 1.2
 
+projects[robotstxt][subdir] = "jquery_update"
+projects[robotstxt][version] = 2.3
+
 projects[entitycache][subdir] = "contrib"
 projects[entitycache][version] = 1.2
 
