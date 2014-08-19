@@ -13,7 +13,7 @@ libraries[htmlpurifier][download][url] = http://htmlpurifier.org/releases/htmlpu
 libraries[htmlpurifier][destination] = libraries
 
 libraries[galleria][download][type] = get
-libraries[galleria][download][url] = http://galleria.io/static/galleria-1.3.5.zip
+libraries[galleria][download][url] = http://galleria.io/static/galleria-1.3.2.zip
 libraries[galleria][destination] = libraries
 
 ;contrib
