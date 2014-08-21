@@ -1,0 +1,11 @@
+--- simplenews.module	2014-08-21 14:36:41.102019314 +0200
++++ simplenews_fix.module	2014-08-21 15:08:37.461927408 +0200
+@@ -1026,7 +1026,7 @@
+  * Add simplenews subscription management form to account category 'Newsletters'
+  */
+ function simplenews_form_user_profile_form_alter(&$form, &$form_state) {
+-  if ($form['#user_category'] ==  'simplenews') {
++  if ($form['#user']->user_category ==  'simplenews') {
+     $subscription = simplenews_subscriber_load_by_mail($form['#user']->mail);
+     module_load_include('inc', 'simplenews', 'includes/simplenews.subscription');
+     simplenews_subscriptions_account_form($form, $form_state, $subscription);

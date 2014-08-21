@@ -63,6 +63,7 @@ projects[file_entity][version] = 2.0-unstable7
 
 projects[simplenews][subdir] = "contrib"
 projects[simplenews][version] = 1.1
+projects[simplenews][patch][] = https://raw.githubusercontent.com/odensecentralbibliotek/makefiles/master/simplenews.patch
 
 projects[exif_custom][subdir] = "contrib"
 projects[exif_custom][version] = 1.14
