@@ -161,6 +161,11 @@ projects[wysiwygpatch][subdir] = "custom"
 projects[wysiwygpatch][download][type] = "git"
 projects[wysiwygpatch][download][url] = "git@github.com:Kunstportalfyn/wysiwygpatch.git"
 
+projects[ding_kpi][type] = "module"
+projects[ding_kpi][subdir] = "custom"
+projects[ding_kpi][download][type] = "git"
+projects[ding_kpi][download][url] = "git@github.com:odensecentralbibliotek/ding_kpi.git"
+
 projects[media_css][type] = "module"
 projects[media_css][subdir] = "custom"
 projects[media_css][download][type] = "git"
