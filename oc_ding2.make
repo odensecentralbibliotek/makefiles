@@ -240,6 +240,11 @@ projects[oc_cookie][subdir] = "features"
 projects[oc_cookie][download][type] = "git"
 projects[oc_cookie][download][url] = "https://github.com/odensecentralbibliotek/oc_cookie.git"
 
+projects[bpi][type] = "module"
+projects[bpi][subdir] = "custom"
+projects[bpi][download][type] = "git"
+projects[bpi][download][url] = "https://github.com/ding2tal/bpi.git"
+
 
 ;Ding2tal
 projects[ding2][type] = "profile"
