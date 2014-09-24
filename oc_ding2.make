@@ -56,11 +56,11 @@ projects[captcha][subdir] = "contrib"
 projects[captcha][version] = 1.0
 
 projects[media][subdir] = "contrib"
-projects[media][version] = 2.0-unstable7
-projects[simplenews][patch][] = https://www.drupal.org/files/media-n2084593-1.patch
+projects[media][version] = 2.x-dev
+projects[media][patch][] = https://www.drupal.org/files/media-n2084593-1.patch
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = 2.0-unstable7
+projects[file_entity][version] = 2.0-alpha3
 
 projects[simplenews][subdir] = "contrib"
 projects[simplenews][version] = 1.1
