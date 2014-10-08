@@ -37,6 +37,7 @@ projects[readonlymode][version] = 1.2
 
 projects[elysia_cron][subdir] = "contrib"
 projects[elysia_cron][version] = 2.1
+projects[htmlmail][patch][] = https://www.drupal.org/files/elysia_cron_drush_compatibility-939592-16.patch
 
 projects[htmlpurifier][subdir] = "contrib"
 projects[htmlpurifier][version] = 1.0
