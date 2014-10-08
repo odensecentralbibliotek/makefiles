@@ -57,11 +57,11 @@ projects[captcha][subdir] = "contrib"
 projects[captcha][version] = 1.0
 
 projects[media][subdir] = "contrib"
-projects[media][version] = 2.0-unstable7
-projects[simplenews][patch][] = https://www.drupal.org/files/media-n2084593-1.patch
+projects[media][version] = 2.x-dev
+projects[media][patch][] = https://www.drupal.org/files/media-n2084593-1.patch
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = 2.0-unstable7
+projects[file_entity][version] = 2.0-alpha3
 
 projects[simplenews][subdir] = "contrib"
 projects[simplenews][version] = 1.1
@@ -240,6 +240,11 @@ projects[oc_cookie][type] = "module"
 projects[oc_cookie][subdir] = "features"
 projects[oc_cookie][download][type] = "git"
 projects[oc_cookie][download][url] = "https://github.com/odensecentralbibliotek/oc_cookie.git"
+
+projects[bpi][type] = "module"
+projects[bpi][subdir] = "custom"
+projects[bpi][download][type] = "git"
+projects[bpi][download][url] = "https://github.com/ding2tal/bpi.git"
 
 
 ;Ding2tal
