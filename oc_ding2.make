@@ -1,6 +1,5 @@
 api = 2
 core = 7.x
-
 includes[] = drupal-org-core.make
 
 ;libraries
@@ -20,8 +19,8 @@ libraries[galleria][destination] = libraries
 projects[robotstxt][subdir] = "contrib"
 projects[robotstxt][version] = 1.2
 
-projects[robotstxt][subdir] = "jquery_update"
-projects[robotstxt][version] = 2.3
+projects[jquery_update][subdir] = "jquery_update"
+projects[jquery_update][version] = 2.3
 
 projects[entitycache][subdir] = "contrib"
 projects[entitycache][version] = 1.2
@@ -37,7 +36,7 @@ projects[readonlymode][version] = 1.2
 
 projects[elysia_cron][subdir] = "contrib"
 projects[elysia_cron][version] = 2.1
-projects[htmlmail][patch][] = https://www.drupal.org/files/elysia_cron_drush_compatibility-939592-16.patch
+projects[elysia_cron][patch][] = https://www.drupal.org/files/elysia_cron_drush_compatibility-939592-16.patch
 
 projects[htmlpurifier][subdir] = "contrib"
 projects[htmlpurifier][version] = 1.0
@@ -58,14 +57,14 @@ projects[captcha][version] = 1.0
 
 projects[media][subdir] = "contrib"
 projects[media][version] = 2.x-dev
-projects[media][patch][] = https://www.drupal.org/files/media-n2084593-1.patch
+;projects[media][patch][] = https://www.drupal.org/files/media-n2084593-1.patch
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = 2.0-alpha3
 
 projects[simplenews][subdir] = "contrib"
 projects[simplenews][version] = 1.1
-projects[simplenews][patch][] = https://raw.githubusercontent.com/odensecentralbibliotek/makefiles/master/simplenews.patch
+;projects[simplenews][patch][] = https://raw.githubusercontent.com/odensecentralbibliotek/makefiles/master/simplenews.patch
 
 projects[exif_custom][subdir] = "contrib"
 projects[exif_custom][version] = 1.14
@@ -244,7 +243,7 @@ projects[oc_cookie][download][url] = "https://github.com/odensecentralbibliotek/
 projects[bpi][type] = "module"
 projects[bpi][subdir] = "custom"
 projects[bpi][download][type] = "git"
-projects[bpi][download][url] = "https://github.com/ding2tal/bpi.git"
+projects[bpi][download][url] = "https://github.com/odensecentralbibliotek/bpi.git"
 
 
 ;Ding2tal
