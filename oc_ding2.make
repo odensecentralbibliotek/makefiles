@@ -19,6 +19,9 @@ libraries[galleria][destination] = libraries
 projects[robotstxt][subdir] = "contrib"
 projects[robotstxt][version] = 1.2
 
+projects[linkchecker][subdir] = "contrib"
+projects[linkchecker][version] = 1.2
+
 projects[jquery_update][subdir] = "jquery_update"
 projects[jquery_update][version] = 2.3
 
