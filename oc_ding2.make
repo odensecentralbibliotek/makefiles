@@ -154,6 +154,9 @@ projects[cache_actions][patch][2151445] = "https://drupal.org/files/issues/cache
 projects[fb_autopost][subdir] = "contrib"
 projects[fb_autopost][version] = "1.2"
 
+projects[likebtn][subdir] = "contrib"
+projects[likebtn][version] = "1.11"
+
 ; theme
 projects[latto_odense][type] = "theme"
 projects[latto_odense][download][type] = "git"
