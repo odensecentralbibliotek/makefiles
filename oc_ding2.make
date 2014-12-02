@@ -94,7 +94,7 @@ projects[sweaver][version] = "1.3"
 projects[sweaver][patch][] = http://drupal.org/files/panels-everywhere.patch
 
 projects[scheduler][subdir] = "contrib"
-projects[scheduler][version] = "1.2"
+projects[scheduler][version] = "1.3"
 
 projects[print][subdir] = "contrib"
 projects[print][version] = "2.0"
@@ -189,6 +189,16 @@ projects[mobile_detect][type] = "module"
 projects[mobile_detect][subdir] = "custom"
 projects[mobile_detect][download][type] = "git"
 projects[mobile_detect][download][url] = "git@github.com:odensecentralbibliotek/mobile_detect.git"
+
+projects[simplenews_stylefix][type] = "module"
+projects[simplenews_stylefix][subdir] = "custom"
+projects[simplenews_stylefix][download][type] = "git"
+projects[simplenews_stylefix][download][url] = "git@github.com:odensecentralbibliotek/simplenews_stylefix.git"
+
+projects[search_autocomplete][type] = "module"
+projects[search_autocomplete][subdir] = "custom"
+projects[search_autocomplete][download][type] = "git"
+projects[search_autocomplete][download][url] = "git@github.com:odensecentralbibliotek/search_autocomplete.git"
 
 projects[easysite_import][type] = "module"
 projects[easysite_import][subdir] = "custom"
