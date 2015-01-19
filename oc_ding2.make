@@ -229,6 +229,15 @@ projects[ding_place2book][subdir] = "custom"
 projects[ding_place2book][download][type] = "git"
 projects[ding_place2book][download][url] = "git@github.com:odensecentralbibliotek/ding_place2book.git"
 
+projects[simplenews_stylefix][type] = "module"
+projects[simplenews_stylefix][subdir] = "custom"
+projects[simplenews_stylefix][download][type] = "git"
+projects[simplenews_stylefix][download][url] = "git@github.com:odensecentralbibliotek/simplenews_stylefix.git"
+
+projects[oc_template_overwrites][type] = "module"
+projects[oc_template_overwrites][subdir] = "custom"
+projects[oc_template_overwrites][download][type] = "git"
+projects[oc_template_overwrites][download][url] = "git@github.com:odensecentralbibliotek/OC_template_overwrite.git"
 
 ;Features
 projects[ding_redia_bapp][type] = "module"
