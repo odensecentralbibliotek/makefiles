@@ -270,9 +270,20 @@ projects[bpi][subdir] = "custom"
 projects[bpi][download][type] = "git"
 projects[bpi][download][url] = "https://github.com/odensecentralbibliotek/bpi.git"
 
+projects[infomedia][type] = "module"
+projects[infomedia][subdir] = "custom"
+projects[infomedia][download][type] = "git"
+projects[infomedia][download][url] = "https://github.com/odensecentralbibliotek/ting_infomedia.git"
+projects[infomedia][download][branch] = "ding2_updated"
 
 ;Ding2tal
+
 projects[ding2][type] = "profile"
 projects[ding2][download][type] = "git"
 projects[ding2][download][url] = "git@github.com:odensecentralbibliotek/ding2.git"
 ;projects[ding2][patch][] = "https://raw.githubusercontent.com/odensecentralbibliotek/makefiles/master/ding2.patch"
+
+;OpenLayers - is included in ding2.
+projects[openlayers][type] = "module"
+projects[openlayers][subdir] = contrib
+projects[openlayers][patch][] = "https://raw.githubusercontent.com/odensecentralbibliotek/makefiles/master/openlayers_gmaps_api_update.patch"
