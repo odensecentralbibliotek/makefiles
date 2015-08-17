@@ -61,6 +61,8 @@ projects[captcha][version] = 1.0
 projects[media][subdir] = "contrib"
 projects[media][version] = 2.x-dev
 ;projects[media][patch][] = https://www.drupal.org/files/media-n2084593-1.patch
+projects[media][patch][] = https://www.drupal.org/files/issues/media-dialog-removal-2093435-27.patch
+
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = 2.0-beta1
